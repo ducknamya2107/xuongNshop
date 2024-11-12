@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <section class="container max-w-screen-xl m-auto flex items-center justify-between py-4">
+            <img src="assets/imgs/logo.png" alt="Logo">
+            <ul class="flex gap-8 font-medium text-xl">
+                <li class="hover:text-amber-500"><a href="index.html">Home</a></li>
+                <li class="hover:text-amber-500"><a href="index.html">Shop</a></li>
+                <li class="hover:text-amber-500"><a href="about.html">About</a></li>
+                <li class="hover:text-amber-500"><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="flex gap-4">
+                <span class="material-symbols-outlined">
+                    person
+                </span>
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+                <span class="material-symbols-outlined">
+                    favorite
+                </span>
+                <a href="cart.html">
+                    <span class="material-symbols-outlined">
+                        shopping_cart
+                    </span>
+                   </a>
+            </div>
+
+        </section>
+
+    </header>
+    <main>
+        <section class="container max-w-screen-xl m-auto grid grid-cols-12  gap-8 my-16 ">
+            <div class="col-span-8">
+                <table class="w-full ">
+                    <thead class="mb-4"> 
+                        <tr class="bg-neutral-100 *:py-4 *:font-medium">
+                            <th class="text-left p-4">Product</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Subtotal </th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody class="mt-4">
+                        <tr class="py-4 *:text-center">
+                            <td class="!text-left "><img src="assets/imgs/ghe-an-hc-600x400.jpg" alt="" class="inline" width="150px"><span class="ml-4 font-medium text-neutral-400">Asgaard sofa</span></td>
+                            <td class="font-medium text-[#A3A3A3]">25.000.000đ </td>
+                            <td class="font-medium">1 </td>
+                            <td class="font-medium">25.000.000đ </td>
+                            <td><span class="material-icons text-red-500">
+                                    delete
+                                </span>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-span-4 bg-neutral-100 p-8">
+                <h2 class="font-semibold text-2xl mb-4">Cart total</h2>
+                <hr class="border-[#A3A3A3] mb-5">
+                <p class="flex justify-between items-center">
+                    <span class="font-medium">Subtotal</span>
+                    <span class="text-[#A3A3A3]">25.000.000đ </span>
+                </p>
+                <p class="flex justify-between items-center">
+                    <span class="font-medium">Total</span>
+                    <span class=" text-red-500 font-bold text-[20px] mb-8">25.000.000đ </span>
+                </p>
+                <a href="" class=" border border solid border border-yellow-500 w-full inline-block text-center py-2 hover:bg-yellow-700 hover:text-white">Checkout</a>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-[#262626] pt-16 pb-8 text-white">
+        <div class="container max-w-screen-xl grid grid-cols-4 gap-8 m-auto mb-16">
+            <div>
+                <img src="assets/imgs/Frame 1329.svg" alt="" class="mb-4">
+                <p>400 University Drive Suite 200 <br>Coral Gables,FL 33134 USA</p>
+            </div>
+            <div>
+                <h3 class="font-semibold text-xl mb-4">Sitemap</h3>
+                <ul>
+                    <li class="mb4"><a href="">Home</a></li>
+                    <li class="mb4"><a href="">Shop</a></li>
+                    <li class="mb4"><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-semibold text-xl mb-4">Help</h3>
+                <ul>
+                    <li class="mb4"><a href="">Payment Options</a></li>
+                    <li class="mb4"><a href="">Returns</a></li>
+                    <li><a href="">Privacy Policies </a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-semibold text-xl mb-4">Location</h3>
+                <ul>
+                    <li class="mb4"><a href="">support@euphoria.in</a></li>
+                    <li class="mb4"><a href="">Ahmedabad Main Road</a></li>
+                    <li><a href="">Udaipur, India- 313002 </a></li>
+                </ul>
+            </div>
+        </div>
+        <hr />
+        <center>
+            <p class="">Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</p>
+        </center>
+    </footer>
+</body>
+
+</html>
